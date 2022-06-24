@@ -26,10 +26,20 @@ namespace DataBassTest
             con.Open();
 
             SqlCommand cmd = con.CreateCommand();
-            cmd.CommandText = "INSERT INTO users " +
-                "(Email, FirstName, LastName) " +
-                "VALUES('jj@ff.ffu', N'Іван', N'Драч'); ";
-            cmd.ExecuteNonQuery();
+            cmd.CommandText = "SELECT name FROM master.sys.databases";
+            using (var reader = cmd.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Console.WriteLine(reader["name"]);
+                }
+            }
+            //cmd.CommandText = "INSERT INTO users " +
+            //    "(Email, FirstName, LastName) " +
+            //    "VALUES('jj@ff.ffu', N'Іван', N'Драч'); ";
+            //cmd.ExecuteNonQuery();
+
+            //-------------------
             //cmd.CommandText = $"CREATE TABLE {tableName} " +
             //    "( "+
             //    "Id int IDENTITY PRIMARY KEY NOT NULL," +
