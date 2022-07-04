@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBassTest", "DataBassTest\DataBassTest.csproj", "{6B6AB125-5D8B-4453-8A53-BED42EEF9F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBassTest", "DataBassTest\DataBassTest.csproj", "{6B6AB125-5D8B-4453-8A53-BED42EEF9F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingDatabase", "WorkingDatabase\WorkingDatabase.csproj", "{7F763D07-29B7-4C1C-8F74-F0A80705F7D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6B6AB125-5D8B-4453-8A53-BED42EEF9F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B6AB125-5D8B-4453-8A53-BED42EEF9F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B6AB125-5D8B-4453-8A53-BED42EEF9F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F763D07-29B7-4C1C-8F74-F0A80705F7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F763D07-29B7-4C1C-8F74-F0A80705F7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F763D07-29B7-4C1C-8F74-F0A80705F7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F763D07-29B7-4C1C-8F74-F0A80705F7D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
