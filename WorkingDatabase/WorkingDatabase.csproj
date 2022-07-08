@@ -13,6 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="SqlTabels\tblStudents.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SqlTabels\tblGroups.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="SqlTabels\tblUserAdresses.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

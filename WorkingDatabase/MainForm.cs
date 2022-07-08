@@ -31,6 +31,8 @@ namespace WorkingDatabase
             ExecuteCommandFromFile("tblRoles.sql");
             ExecuteCommandFromFile("tblUserRoles.sql");
             ExecuteCommandFromFile("tblUserAdresses.sql");
+            ExecuteCommandFromFile("tblGroups.sql");
+            ExecuteCommandFromFile("tblStudents.sql");
         }
 
         private void ExecuteCommandFromFile(string file)
